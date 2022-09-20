@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F0F0F1;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.wp{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 660px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-box{
+    width: 340px;
+    height: 280px;
+    padding: 15px;
+    background-color: #fff;
+    margin-left: 60px;
+    font-size: 18px;
+    border: 1px solid silver;
+    position: relative;
+}
+.form-box label{
+    text-align: left;
+}
+.text , .password{
+    font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: 0.0625rem;
+    padding: 0.1875rem 0.3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    border-radius: 5px;
+}
+.check{
+    font-size: 58px;
+}
+.btn{
+    display: block;
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    background-color: rgb(0, 157, 248);
+}
